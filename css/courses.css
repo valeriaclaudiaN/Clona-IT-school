@@ -1,0 +1,107 @@
+.programe {
+}
+
+.programe-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.programe-container img {
+  width: 100%;
+  padding-bottom: var(--spacing-medium);
+}
+
+.content h3 {
+  color: var(--text-primary);
+  font-weight: bolder;
+  padding: 10px 5px;
+}
+
+.programe p,
+h2 {
+  text-align: center;
+  padding: var(--spacing-medium);
+}
+
+.program-wrapper {
+  padding: var(--spacing-small);
+  width: calc(100% / 3);
+}
+
+.program {
+  border: 1px #ddd solid;
+  padding: var(--spacing-tiny);
+  border-radius: 2%;
+  width: 100%;
+}
+
+.microsoft img {
+  height: 18px;
+  width: auto;
+  padding: 0px 10px;
+}
+
+.microsoft {
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-medium);
+  color: var(--text-grey);
+}
+
+.programe-container a {
+  color: var(--text-white);
+  background-color: var(--button-color);
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: var(--fs-medium);
+  padding: var(--spacing-tiny);
+  margin: 0 var(--spacing-small) var(--spacing-small) var(--spacing-small);
+}
+
+.detalii {
+  padding: var(--spacing-medium) 0px;
+  font-size: var(--fs-medium);
+  color: var(--text-grey);
+  display: flex;
+}
+
+.duration-month,
+.available,
+.duration-hours {
+  padding-left: var(--spacing-small);
+}
+.available,
+.duration-hours,
+.duration-month {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.detalii span {
+  font-size: var(--fs-medium);
+}
+
+.detalii .materialspacing {
+  padding-right: var(--spacing-tiny);
+}
+
+.programe .sesions {
+  font-weight: bolder;
+}
+
+@media (max-width: 1000px) {
+  .program-wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .program-wrapper {
+    width: 100%;
+  }
+}
